@@ -12,6 +12,9 @@
   "author": "Tyler McGinnis",
   "license": "MIT",
   "babel": {
+    "plugins": [
+      "transform-class-properties"
+    ],
     "presets": [
       "env",
       "react"
@@ -20,6 +23,7 @@
   "devDependencies": {
     "babel-core": "^6.24.0",
     "babel-loader": "^6.4.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.2.2",
     "babel-preset-react": "^6.23.0",
     "css-loader": "^0.27.3",
@@ -31,6 +35,7 @@
   },
   "dependencies": {
     "axios": "^0.16.0",
+    "babel-polyfill": "^6.26.0",
     "prop-types": "^15.5.4",
     "react": "^16.0.0-alpha.5",
     "react-dom": "^16.0.0-alpha.5",
